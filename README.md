@@ -157,21 +157,6 @@ You can run the project from an IDE, as well as standalone, from anywhere on dis
 -   Linux and macOS:
     -   `./bin/Debug/GFXFramework`
 
-To run a certain lab:
-
--   Go into `main.cpp`
--   Find this line:
-    ```cpp
-    World *world = new gfxc::SimpleScene();
-    ```
--   Replace it with whatever you want to run, for example:
-    ```cpp
-    World *world = new m1::Lab1();
-    World *world = new m2::Lab1();
-    World *world = new extra::TessellationShader();
-    // etc.
-    ```
-
 
 ## :book: Documentation
 
